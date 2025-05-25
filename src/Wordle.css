@@ -1,0 +1,48 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.line {
+    display: flex;
+    gap: 5px;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    background: lightgreen;
+}
+
+.incorrect {
+    background: lightgray;
+}
+
+.wrongplace {
+    background: yellow;
+}
+
+.text {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.resetBtn {
+    font-size: 20px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
